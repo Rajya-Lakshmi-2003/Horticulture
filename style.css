@@ -1,0 +1,180 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#videocontainer {
+    position: relative;
+    z-index: -1;
+}
+
+.video-container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+
+.navbar {
+    position: absolute;
+    margin: 0px;
+    width: 100%
+}
+
+.navdiv {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    container-type:inline-size ;
+}
+
+.logo a {
+    color: white;
+    flex-basis: 70px;
+    font-size: 70px;
+    font-weight: normal;
+    font-family: "Audiowide";
+}
+
+li {
+    display: inline-flex;
+    list-style-type: none;
+    font-size: 20px;
+    margin: 30px 0px 0px 10px;
+    justify-content: flex-end;
+}
+
+li a {
+    color: white;
+    font-weight: bolder;
+}
+li a:hover{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px green;
+}
+
+@media (max-width: 700px) {
+    .li {
+        flex-direction: column;
+    }
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    font-size: 4vw;
+    transform: translate(-50%, -50%);
+    border-bottom: 2px double white;
+    z-index: 1;
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 8vw;
+    }
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-image: url("/images/grass1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 10px 0px 10px 0px;
+}
+
+.content>p {
+    color: #000000;
+    width: auto;
+    margin: 50px;
+    font-size: larger;
+    background-image: url("/images/light.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 30px;
+    line-height: 1.8;
+    font-weight: bolder;
+    letter-spacing: 2.5px;
+    word-spacing: 3px;
+    font-family: "Trirong", serif;
+
+}
+
+.content>.adv {
+    display: flex;
+    flex-grow: 1;
+    color: #000000;
+    margin: 70px;
+    font-size: larger;
+    background-image: url("/images/light.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 30px;
+    line-height: 1.8;
+    font-weight: bolder;
+    letter-spacing: 2.5px;
+    word-spacing: 3px;
+    font-family: "Trirong", serif;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .navdiv .logo {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px green;
+}
+
+footer {
+    display: flex;
+    
+    flex-direction: column;
+    background-color: black;
+    width: auto;
+    height: auto;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.footercontent ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+}
+
+.footercontent ul li {
+    color: white
+}
+
+.footercontent ul li:hover {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px green;
+}
+
+.footerbottom {
+    margin:5px;
+    text-align: center;
+    color: white;
+    font-size: smaller;
+    font-weight:100;
+}
